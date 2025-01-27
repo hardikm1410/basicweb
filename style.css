@@ -140,7 +140,7 @@
 
 .background{
 
-    background: rgba(0, 0  , 0, 0.8) url('download.jpg');
+    background: rgba(0, 0  , 0, 0.6) url('download.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
