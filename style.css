@@ -140,7 +140,7 @@
 
 .background{
 
-    background: rgba(0, 0  , 0, 0.8) url('download.jpg');
+    background: rgba(0, 0  , 0, 0.8) url('img/download.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -282,7 +282,7 @@
 
     *{
         flex-direction: column;
-        margin:30px ;
+        margin:auto;
         /* padding: auto auto; */
     }
 
@@ -292,10 +292,28 @@
         border:2px solid black;
         border-radius: 30px;
     }
+
+    .logo{
+ 
+        width: 50%;
+        padding-bottom: 5px;
+        border-bottom:0.5px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+       
+    }
+    
+
+    
     .navbar{
         flex-direction: column;
-        
-        
+        /* position:absolute; */
+        height: 500px;
+        /* background-color: transparent; */
+        padding-bottom: 3px;
+        border:0.5px solid white;
     }
 
     .rightnav{
@@ -303,6 +321,7 @@
         margin:auto;
         border:2px solid black;
         border-radius: 30px;
+        width:70%;
         
     }
 
@@ -318,17 +337,52 @@
 
     }
 
+    .box-main {
 
+        /* width: 100%; */
+        font-size: 13px;
+       
+    }
+
+    .firsthalf{
+        padding-top:30px; 
+        width:110%;
+    }
+
+    .secondhalf{
+        padding-top:50px; 
+        width:80%;
+    }
     .burger{
         display: block;
     }
 
-    .h-nav{
+    .h-nav-resp {
+        transition:0.5s;
 
-        height:75px;
+        height:40px;
     }
 
-    .v-nav{
+    .v-class-resp {
         opacity: 0%;
+        height:778px;
+        /* transition:0.5s; */
+    }
+
+    .paras{
+        padding-top: 10px;
+        font-size: 13px;
+ 
+    }
+
+    .imgfluid{
+        width:90%;
+        height: auto;
+        border: 3px solid rgb(43, 48, 95);
+        border-radius: 20px;
+        display: flex;
+        padding-top: 3px;
+        cursor: pointer;
+    
     }
 }
