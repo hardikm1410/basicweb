@@ -360,13 +360,14 @@
     .h-nav-resp {
         transition:0.5s;
 
-        height:20px;
+        
+        height:778px;
         
     }
 
     .v-class-resp {
         opacity: 0%;
-        
+        height:20px;
         height:778px;
         /* transition:0.5s; */
     }
