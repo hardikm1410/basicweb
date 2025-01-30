@@ -309,7 +309,7 @@
     
     .navbar{
         flex-direction: column;
-        /* position:absolute; */
+         position:fixed;
         height: 700px;
         /* background-color: transparent; */
         padding-bottom: 53px;
