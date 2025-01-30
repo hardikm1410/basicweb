@@ -310,10 +310,10 @@
     .navbar{
         flex-direction: column;
          position:fixed;
-        height: 700px;
+        height: 750px;
         /* background-color: transparent; */
         padding-bottom: 73px;
-        border:0.5px solid white;
+        
         overflow-y:hidden;
         overflow-x:hidden;
         width:80%;
@@ -370,7 +370,7 @@
 
     .v-class-resp {
         opacity: 0%;
-        height:700px
+        height:750px
         
         /* transition:0.5s; */
     }
