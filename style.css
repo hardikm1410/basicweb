@@ -340,7 +340,7 @@
     .box-main {
 
         /* width: 100%; */
-        font-size: 13px;
+        font-size: 18px;
        
     }
 
@@ -361,13 +361,13 @@
         transition:0.5s;
 
         
-        height:20px;
+        height:40px;
         
     }
 
     .v-class-resp {
         opacity: 0%;
-    
+        height:700px
         
         /* transition:0.5s; */
     }
