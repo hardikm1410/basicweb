@@ -310,7 +310,7 @@
     .navbar{
         flex-direction: column;
         /* position:absolute; */
-        height: 500px;
+        height: 50px;
         /* background-color: transparent; */
         padding-bottom: 3px;
         border:0.5px solid white;
@@ -361,13 +361,13 @@
         transition:0.5s;
 
         
-        height:778px;
+        height:20px;
         
     }
 
     .v-class-resp {
         opacity: 0%;
-        height:20px;
+        height:778px;
         
         /* transition:0.5s; */
     }
