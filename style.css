@@ -296,7 +296,7 @@
     .logo{
  
         width: 50%;
-        padding-bottom: 5px;
+        padding-bottom: 8px;
         border-bottom:0.5px solid white;
         display: flex;
         justify-content: center;
@@ -312,7 +312,7 @@
         /* position:absolute; */
         height: 700px;
         /* background-color: transparent; */
-        padding-bottom: 3px;
+        padding-bottom: 53px;
         border:0.5px solid white;
     }
 
@@ -346,11 +346,11 @@
 
     .firsthalf{
         padding-top:30px; 
-        width:110%;
+        width:100%;
     }
 
     .secondhalf{
-        padding-top:50px; 
+        padding-top:25px; 
         width:80%;
     }
     .burger{
@@ -379,12 +379,12 @@
     }
 
     .imgfluid{
-        width:90%;
+        width:95%;
         height: auto;
         border: 3px solid rgb(43, 48, 95);
         border-radius: 20px;
         display: flex;
-        padding-top: 3px;
+        padding-top: 1px;
         cursor: pointer;
     
     }
